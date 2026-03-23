@@ -19,6 +19,7 @@
 <!-- Badges Row 2 -->
 ![License](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active-22c55e?style=for-the-badge&logo=statuspage&logoColor=white)
+![Release](https://img.shields.io/badge/Released-March%202026-8b5cf6?style=for-the-badge&logo=rocket&logoColor=white)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-2.0-D71F00?style=for-the-badge&logo=sqlite&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-aiosqlite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
@@ -848,16 +849,7 @@ If this bot saves you time or is useful for your projects, please consider suppo
 
 
 
-## 📝 Changelog
 
-| Version | Date | Highlights |
-|---|---|---|
-| v1.0 | 2024 | Initial release — OSINT core + basic tracking |
-| v1.1 | 2024 | Advanced profiling system |
-| v1.2 | 2024 | Group reports & analytics engine |
-| v1.3 | 2024 | Docker support + containerization |
-
----
 
 ## 📄 License
 
