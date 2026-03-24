@@ -4,7 +4,7 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=00D9FF&center=true&vCenter=true&width=700&lines=Hybrid+Bot+API+%2B+Telethon+Userbot;Deep+OSINT+on+any+Telegram+entity;Real-time+Group+Tracking+%26+Profiling;Username+%26+ID+History+via+SangMata;Paginated+inline+menus+%E2%80%94+zero+clutter)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=00D9FF&center=true&vCenter=true&width=700&lines=Hybrid+Bot+API+%2B+Telethon+Userbot;Deep+OSINT+on+any+Telegram+entity;Real-time+Group+Tracking+%26+Profiling;Username+%26+ID+History;Paginated+inline+menus+%E2%80%94+zero+clutter)](https://git.io/typing-svg)
 
 <br/>
 
@@ -67,7 +67,7 @@ This bot combines **two Telegram clients running in parallel** to collect data t
 │  │  • Inline keyboards  │       │  • Mutual groups            │    │
 │  │  • Group logging     │       │  • Full MTProto data        │    │
 │  │  • Paginated menus   │       │  • Phone (if public)        │    │
-│  │  • /profile /report  │       │  • SangMata ID history      │    │
+│  │  • /profile /report  │       │  • ID history lookup        │    │
 │  └──────────────────────┘       └─────────────────────────────┘    │
 │                         │               │                           │
 │                         └──────┬────────┘                           │
@@ -113,7 +113,7 @@ Title, username, member count, description, DC, reactions, slow mode, sticker pa
 
 ### 📋 ID & Username History
 
-Query [@SangMata_beta_bot](https://t.me/SangMata_beta_bot) through the userbot — bypasses the forward restriction by polling `iter_messages` instead of forwarding. Returns a clean HTML-formatted history of all recorded name and username changes.
+Lookup complete history of name and username changes for any Telegram user. The bot queries an advanced intelligence database and returns a clean, formatted history of all recorded changes over time.
 
 ```
 /idstorici @username
@@ -344,7 +344,7 @@ python main.py
 ├── config.py             # Reads .env and exposes typed constants
 ├── bot_handlers.py       # All PTB handlers + paginated UI engine
 ├── osint.py              # collect_osint_data() — core OSINT collector
-├── sangmata.py           # SangMata poller + Markdown→HTML formatter
+├── sangmata.py           # ID history retriever + Markdown→HTML formatter
 ├── userbot_client.py     # Telethon wrapper — shared singleton
 ├── analytics.py          # Group report queries (SQLAlchemy)
 ├── user_profiling.py     # Per-user profile queries and data assembly
